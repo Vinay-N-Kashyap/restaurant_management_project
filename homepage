@@ -1,0 +1,24 @@
+<html>
+<head>
+   <title> My Homepage</title>
+</head>
+<body style="font-family: Arial, sans-serif;margin:0;padding:0"> 
+<header style="background-color:#4cAF50;padding:20px;text-align:center;color:white;">
+<h1 style="margin: 0;font-size:2.5em;">Welcome to my HOMEPAGGE</h1>
+<p style='margin:5px 0 0;font-size:1.1em;'>A simple , clean desiggn for easy readding</p>
+</header>
+<main style="max-width:800px;margin:30px auto;padding:20px;background-color:white;border-radius:8px;box-shadow:0 2px 5px rgba(0,0,0,0.1)">
+<section style="margin-bottom:20px">
+ <h2 style="color:#4caf50;font-size:1.8em;">project</h2>
+ <li>Project one - web design sample</li>
+ <li>project two - UI/UX case studt</li>
+ <li>project Three - Experimental concepts</li>
+ </ul>
+</section>
+<main>
+<fotter style="background-color:#333;text-align:center:padding:15px;color:white;margin-top:30px;">
+  <p style="margin:0;">&copy; 2025 My Homepage</p>
+</fotter>
+
+</body>
+</html>
