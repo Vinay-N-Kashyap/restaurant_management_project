@@ -1,0 +1,16 @@
+from django.conf import settings
+from django.shortcuts import render
+
+der homepage(request):
+ return render(request,'homepage.html',{
+    'restaurant_name':settings.Restaurant_name
+ })
+
+ <html>
+ <head>
+ <body>
+   <h1>{{restaurant_name}}</h1>
+   <p>Welcoma to  oue website!</p>
+   =</body>
+   ,.
+   </html>
