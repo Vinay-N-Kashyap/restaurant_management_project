@@ -1,0 +1,43 @@
+from django.conf import settings 
+from django.shortcuts import render 
+
+def homepage(request):
+ return render(request,'homepage.html',{
+    'resturent_name':settings.RESTURENT_NAME
+ })
+ def adout(request):
+  return render(request,'about.html',{
+    'resturant_name',:settings.RESTURENT_NAME
+  })
+
+
+  python django.urls import path
+  from . import views
+
+  urlpatterns = [
+    path('',view.homepage,name='homepage'),
+    path('about/,',views.about,name='about'),
+  ]
+
+
+
+<html>
+<body>
+  <nov>
+    <a href="{% url 'homepage ' %}">home</a>
+    <a href="{% url 'about' %}>About</a>
+  </nav>
+  <h1>{{restaurant_name}}</h1>
+  <p>Welcome to our website!</p>
+</body>
+</html>
+
+
+<html>
+<body>
+<h1>about{{restaurant_name}}</h1>
+<p>We are a family-owned restaurant serving delicious, fresh meals made with love<</p>
+ <img src="?????????/////////">
+ </body>
+ </html>
+ 
