@@ -12,5 +12,5 @@ der homepage(request):
    <h1>{{restaurant_name}}</h1>
    <p>Welcoma to  oue website!</p>
    =</body>
-   ,.
+   <h1>The </h1>
    </html>
