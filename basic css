@@ -1,0 +1,30 @@
+<html>
+<link rel="stylesheet" href="new">
+<body>
+<h1>basic css</h1>
+
+</body>
+
+</html>
+
+
+
+.{
+    padding : 0;
+    margin:0;
+}
+
+h1{
+    color : red;
+    background : white;
+    flexbox : active;
+    textalign: center;
+}
+
+<form class="class">
+
+class{
+    border : 2r;
+    
+}
+
