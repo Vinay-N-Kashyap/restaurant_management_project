@@ -8,3 +8,11 @@ function resurvation()=>{
 
 
 copy right 2025@c
+
+
+
+css
+*{
+    color:black:
+    background:white
+}
