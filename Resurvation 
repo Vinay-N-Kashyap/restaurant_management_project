@@ -6,7 +6,7 @@ function resurvation()=>{
     console.log("reorvation "
     ),
     ()={
-        place holder message
+        place holder message.
 ..
 
     }
